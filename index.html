@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+  <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>L'Ancre Intérieure — Hypnothérapie & Coaching mental</title>
@@ -575,13 +577,14 @@
         <div class="contact-detail"><strong>Cabinet</strong>6 rue d'Aligny 78340 Les Clayes sous bois</div>
         <div class="contact-detail"><strong>Visioconférence</strong>Séances disponibles à distance</div>
       </div>
-      <form class="contact-form" onsubmit="event.preventDefault(); alert('Formulaire à connecter à votre outil d\'envoi (mail, Calendly, etc.).');">
-        <input type="text" placeholder="Votre nom" required>
-        <input type="email" placeholder="Votre e-mail" required>
-        <input type="tel" placeholder="Votre téléphone">
-        <textarea placeholder="Votre message"></textarea>
-        <button class="btn btn-primary" type="submit" style="align-self:flex-start;">Envoyer</button>
-      </form>
+     <a
+  class="btn btn-primary"
+  href="https://calendly.com/carminec00/30min"
+  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/carminec00/30min'}); return false;"
+  style="align-self:flex-start;"
+>
+  Prise de RDV
+</a>
     </div>
   </div>
 </section>
